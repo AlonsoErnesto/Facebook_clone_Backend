@@ -4,7 +4,7 @@ services:
     env: node
     region: oregon # Cambia esto por tu región preferida (ej. frankfurt para Europa)
     buildCommand: npm install
-    startCommand: npm run serve
+    startCommand: npm run server
     plan: free
     branch: main
     autoDeploy: true
