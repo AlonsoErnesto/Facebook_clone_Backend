@@ -1,0 +1,10 @@
+services:
+  - name: facebook_server
+    type: web
+    env: node
+    region: oregon # Cambia esto por tu región preferida (ej. frankfurt para Europa)
+    buildCommand: npm install
+    startCommand: npm run serve
+    plan: free
+    branch: main
+    autoDeploy: true
